@@ -72,12 +72,12 @@ export default function App() {
         console.log("User is signed in:", user.email);
         setSession({
           user: {
-            name: 'Praveen Kumar',
+            name: 'Ankit Sharma',
             email: user.email,
             image: <AccountCircleIcon />,
           },
         });
-      } 
+      }
       // else {
       //   setUser(null);
       //   console.log("No user is signed in");
@@ -96,7 +96,7 @@ export default function App() {
       signIn: () => {
         setSession({
           user: {
-            name: 'Praveen Kumar',
+            name: 'Ankit Sharma',
             email: user.email,
             image: <AccountCircleIcon />,
           },
@@ -117,8 +117,8 @@ export default function App() {
       authentication={authentication}
       navigation={NAVIGATION}
       branding={{
-        logo: <img src="https://codingmstr.com/img/logo-white.png" alt="MUI logo" />,
-        title: 'CodingMSTR',
+        logo: <img src="https://i.pinimg.com/236x/c9/8b/52/c98b523a91cc6b44e0a311f69d85fea7.jpg" alt="MUI logo" />,
+        title: 'Ankit Sharma',
       }}
     >
       <Outlet />
